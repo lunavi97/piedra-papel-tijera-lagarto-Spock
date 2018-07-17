@@ -1,20 +1,54 @@
 package edu.tallerweb.pptls;
 
 /**
- * Las diferentes Formas que existen en el juego
+ * Las diferentes Formas que existen en el juego.
  */
 public enum Forma {
 
-	PIEDRA(0), SPOCK(1), PAPEL(2), LAGARTO(3), TIJERA(4);
+  /**
+   * Piedra.
+   */
+  PIEDRA(0),
 
-	private final Integer valor;
+  /**
+   * Spock.
+   */
+  SPOCK(1),
 
-	private Forma(final Integer valor) {
-		this.valor = valor;
-	}
+  /**
+   * Papel.
+   */
+  PAPEL(2),
 
-	public Integer getValor() {
-		return this.valor;
-	}
+  /**
+   * Lagarto.
+   */
+  LAGARTO(3),
+
+  /**
+   * Tijera.
+   */
+  TIJERA(4);
+
+  /**
+   * Valor de la forma.
+   */
+  private final Integer valor;
+
+  /**
+   * Constructor de forma.
+   * @param valor - Valor de la forma
+   */
+  Forma(final Integer valor) {
+    this.valor = valor;
+  }
+
+  /**
+   * Obtener el valor de la forma.
+   * @return Valor de forma
+   */
+  public final Integer getValor() {
+    return this.valor;
+  }
 
 }

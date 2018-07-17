@@ -1,10 +1,23 @@
 package edu.tallerweb.pptls;
 
 /**
- * Los posibles resultados del juego
+ * Los posibles resultados del juego.
  */
 public enum Resultado {
 
-	GANA, EMPATA, PIERDE;
+  /**
+   * Gana el juego.
+   */
+  GANA,
+
+  /**
+   * Empata el juego.
+   */
+  EMPATA,
+
+  /**
+   * Pierde el juego.
+   */
+  PIERDE;
 
 }
