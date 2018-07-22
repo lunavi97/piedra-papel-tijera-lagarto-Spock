@@ -8,15 +8,15 @@ public class Mano {
   /**
    * Forma.
    */
-  private Forma forma;
+  private final Forma forma;
 
   /**
    * Toda Mano debe crearse con una forma dada, que será
    * la que determine su condición en el juego.
-   * @param forma - la Forma que adopta la Mano.
+   * @param argForma - la Forma que adopta la Mano.
    */
-  public Mano(final Forma forma) {
-    this.forma = forma;
+  public Mano(final Forma argForma) {
+    forma = argForma;
   }
 
   /**

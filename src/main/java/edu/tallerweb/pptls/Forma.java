@@ -37,10 +37,10 @@ public enum Forma {
 
   /**
    * Constructor de forma.
-   * @param valor - Valor de la forma
+   * @param argValor - Valor de la forma
    */
-  Forma(final Integer valor) {
-    this.valor = valor;
+  Forma(final Integer argValor) {
+    valor = argValor;
   }
 
   /**
